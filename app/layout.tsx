@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter, Poppins } from 'next/font/google';
 import './globals.css';
+import EzoicAd from '@/components/EzoicAd';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -14,7 +15,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://fastwayinvoice.com'), // Replace with your actual production URL when deploying
+  metadataBase: new URL('https://fastwayinvoice.app'), // Replace with your actual production URL when deploying
   title: 'Free Online Invoice Generator (No Signup) | FastWay Invoice',
   description: 'Create professional PDF invoices instantly with our free online invoice generator. No signup required, offline-first, and 100% free forever.',
   keywords: ['invoice generator', 'free invoicing software', 'freelance invoice maker', 'PDF invoice', 'business billing tool', 'free online invoice generator no signup'],
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://fastwayinvoice.com',
+    url: 'https://fastwayinvoice.app',
     siteName: 'FastWay Invoice',
     title: 'Free Online Invoice Generator (No Signup) | FastWay Invoice',
     description: 'Create professional PDF invoices instantly with our free online invoice generator. No signup required, offline-first, and 100% free forever.',
@@ -63,6 +64,22 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Ezoic Privacy Scripts */}
+        <script data-cfasync="false" src="https://cmp.gatekeeperconsent.com/min.js"></script>
+        <script data-cfasync="false" src="https://the.gatekeeperconsent.com/cmp.min.js"></script>
+        
+        {/* Ezoic Header Scripts */}
+        <script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.ezstandalone = window.ezstandalone || {};
+              ezstandalone.cmd = ezstandalone.cmd || [];
+            `,
+          }}
+        />
+        <script src="//ezoicanalytics.com/analytics.js"></script>
+
         {/* Google tag (gtag.js) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-1D1KBYHKF3"></script>
         <script
@@ -78,6 +95,7 @@ export default function RootLayout({
       </head>
       <body className={`${inter.variable} ${poppins.variable} font-sans antialiased`}>
         {children}
+        <EzoicAd placementId={101} />
       </body>
     </html>
   );
