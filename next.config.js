@@ -5,7 +5,7 @@ const nextConfig = {
       {
         source: '/ads.txt',
         destination: 'https://srv.adstxtmanager.com/19390/fastwayinvoice.com',
-        permanent: true,
+        permanent: false,
       },
     ];
   },
