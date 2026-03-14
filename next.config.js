@@ -1,4 +1,14 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  async redirects() {
+    return [
+      {
+        source: '/ads.txt',
+        destination: 'https://srv.adstxtmanager.com/19390/fastwayinvoice.com',
+        permanent: true,
+      },
+    ];
+  },
+};
 
 module.exports = nextConfig;
