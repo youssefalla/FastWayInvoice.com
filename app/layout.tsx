@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter, Poppins } from 'next/font/google';
 import './globals.css';
-import EzoicAd from '@/components/EzoicAd';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -95,7 +94,6 @@ export default function RootLayout({
       </head>
       <body className={`${inter.variable} ${poppins.variable} font-sans antialiased`}>
         {children}
-        <EzoicAd placementId={101} />
       </body>
     </html>
   );
