@@ -63,6 +63,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <script src="https://5gvci.com/act/files/tag.min.js?z=10787994" data-cfasync="false" async></script>
         <meta name="monetag" content="feba656d33f93a59fa55b3716f908a6d" />
         {/* Google tag (gtag.js) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-1D1KBYHKF3"></script>
