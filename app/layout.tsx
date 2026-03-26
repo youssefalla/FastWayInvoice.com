@@ -65,6 +65,7 @@ export default function RootLayout({
       <head>
         <script src="https://5gvci.com/act/files/tag.min.js?z=10787994" data-cfasync="false" async></script>
         <script dangerouslySetInnerHTML={{ __html: `(function(s){s.dataset.zone='10788005',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))` }} />
+        <script dangerouslySetInnerHTML={{ __html: `(function(s){s.dataset.zone='10788014',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))` }} />
         <meta name="monetag" content="feba656d33f93a59fa55b3716f908a6d" />
         {/* Google tag (gtag.js) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-1D1KBYHKF3"></script>
