@@ -87,6 +87,7 @@ export default function RootLayout({
       <body className={`${inter.variable} ${poppins.variable} font-sans antialiased`}>
         {children}
         <div data-banner-id="1485355"></div>
+        <div data-banner-id="1485368"></div>
       </body>
     </html>
   );
