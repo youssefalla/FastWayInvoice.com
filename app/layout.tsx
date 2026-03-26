@@ -69,6 +69,7 @@ export default function RootLayout({
         <script dangerouslySetInnerHTML={{ __html: `(function(s){s.dataset.zone='10788021',s.src='https://izcle.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))` }} />
         <script async src="https://js.wpadmngr.com/static/adManager.js" data-admpid="433270"></script>
         <script async src="https://js.wpadmngr.com/static/adManager.js" data-admpid="433279"></script>
+        <script async src="https://js.wpadmngr.com/static/adManager.js" data-admpid="433280"></script>
         <meta name="monetag" content="feba656d33f93a59fa55b3716f908a6d" />
         {/* Google tag (gtag.js) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-1D1KBYHKF3"></script>
