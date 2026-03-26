@@ -72,6 +72,8 @@ export default function RootLayout({
         <script src="https://www.highperformanceformat.com/8e63d3f1af0412bfe02a6c2bc107990f/invoke.js"></script>
         <script dangerouslySetInnerHTML={{ __html: `atOptions = {'key':'f78fdd15a2bf50601428627c4125435c','format':'iframe','height':600,'width':160,'params':{}};` }} />
         <script src="https://www.highperformanceformat.com/f78fdd15a2bf50601428627c4125435c/invoke.js"></script>
+        <script dangerouslySetInnerHTML={{ __html: `atOptions = {'key':'b5df7e16a20ac8b33b833645a5556c10','format':'iframe','height':90,'width':728,'params':{}};` }} />
+        <script src="https://www.highperformanceformat.com/b5df7e16a20ac8b33b833645a5556c10/invoke.js"></script>
         {/* Google tag (gtag.js) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-1D1KBYHKF3"></script>
         <script
