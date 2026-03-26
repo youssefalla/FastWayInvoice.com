@@ -67,13 +67,9 @@ export default function RootLayout({
 
         <script dangerouslySetInnerHTML={{ __html: `(function(s){s.dataset.zone='10788014',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))` }} />
         <script dangerouslySetInnerHTML={{ __html: `(function(s){s.dataset.zone='10788021',s.src='https://izcle.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))` }} />
+        <script src="https://pl28982885.profitablecpmratenetwork.com/af/cc/22/afcc22f6e0342df475cfe48cdd9252fa.js"></script>
+        <script src="https://pl28982884.profitablecpmratenetwork.com/9d/87/78/9d8778aaebe438c3ec7460405b0a944a.js"></script>
         <meta name="monetag" content="feba656d33f93a59fa55b3716f908a6d" />
-        <script dangerouslySetInnerHTML={{ __html: `atOptions = {'key':'8e63d3f1af0412bfe02a6c2bc107990f','format':'iframe','height':300,'width':160,'params':{}};` }} />
-        <script src="https://www.highperformanceformat.com/8e63d3f1af0412bfe02a6c2bc107990f/invoke.js"></script>
-        <script dangerouslySetInnerHTML={{ __html: `atOptions = {'key':'f78fdd15a2bf50601428627c4125435c','format':'iframe','height':600,'width':160,'params':{}};` }} />
-        <script src="https://www.highperformanceformat.com/f78fdd15a2bf50601428627c4125435c/invoke.js"></script>
-        <script dangerouslySetInnerHTML={{ __html: `atOptions = {'key':'b5df7e16a20ac8b33b833645a5556c10','format':'iframe','height':90,'width':728,'params':{}};` }} />
-        <script src="https://www.highperformanceformat.com/b5df7e16a20ac8b33b833645a5556c10/invoke.js"></script>
         {/* Google tag (gtag.js) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-1D1KBYHKF3"></script>
         <script
