@@ -70,6 +70,8 @@ export default function RootLayout({
         <meta name="monetag" content="feba656d33f93a59fa55b3716f908a6d" />
         <script dangerouslySetInnerHTML={{ __html: `atOptions = {'key':'8e63d3f1af0412bfe02a6c2bc107990f','format':'iframe','height':300,'width':160,'params':{}};` }} />
         <script src="https://www.highperformanceformat.com/8e63d3f1af0412bfe02a6c2bc107990f/invoke.js"></script>
+        <script dangerouslySetInnerHTML={{ __html: `atOptions = {'key':'f78fdd15a2bf50601428627c4125435c','format':'iframe','height':600,'width':160,'params':{}};` }} />
+        <script src="https://www.highperformanceformat.com/f78fdd15a2bf50601428627c4125435c/invoke.js"></script>
         {/* Google tag (gtag.js) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-1D1KBYHKF3"></script>
         <script
