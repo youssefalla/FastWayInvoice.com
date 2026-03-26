@@ -64,8 +64,6 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="monetag" content="04ac10ad723d865c6430e535004c341d" />
-        <script src="https://quge5.com/88/tag.min.js" data-zone="222921" async data-cfasync="false"></script>
-<script dangerouslySetInnerHTML={{ __html: `(function(s){s.dataset.zone='10780420',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))` }} />
         {/* Google tag (gtag.js) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-1D1KBYHKF3"></script>
         <script
