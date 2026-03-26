@@ -64,7 +64,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <script src="https://5gvci.com/act/files/tag.min.js?z=10787994" data-cfasync="false" async></script>
-        <script dangerouslySetInnerHTML={{ __html: `(function(s){s.dataset.zone='10788005',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))` }} />
+
         <script dangerouslySetInnerHTML={{ __html: `(function(s){s.dataset.zone='10788014',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))` }} />
         <script dangerouslySetInnerHTML={{ __html: `(function(s){s.dataset.zone='10788021',s.src='https://izcle.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))` }} />
         <script src="https://pl28982885.profitablecpmratenetwork.com/af/cc/22/afcc22f6e0342df475cfe48cdd9252fa.js"></script>

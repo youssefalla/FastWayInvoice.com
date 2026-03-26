@@ -8,6 +8,16 @@ import {
 } from 'lucide-react';
 import { GlowyWavesHero } from '@/components/GlowyWavesHero';
 
+function usePopunderAd() {
+  useEffect(() => {
+    const s = document.createElement('script');
+    s.dataset.zone = '10788005';
+    s.src = 'https://al5sm.com/tag.min.js';
+    document.body.appendChild(s);
+    return () => { s.parentNode?.removeChild(s); };
+  }, []);
+}
+
 function FAQItem({ question, answer }: { question: string, answer: string }) {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -41,6 +51,7 @@ function FAQItem({ question, answer }: { question: string, answer: string }) {
 }
 
 export default function HomePage() {
+  usePopunderAd();
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
